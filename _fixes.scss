@@ -1,0 +1,26 @@
+// [TO BE FIXED?] unnecessary rounded corner on channel bar
+#app-mount .container-1r6BKw.themed-ANHk51 {
+  border-bottom-right-radius: 0;
+}
+
+// HOT HOT HOT
+.containerDefault--pIXnN [aria-label*="Invite"] {
+  display: none !important;
+}
+
+// HOT HOT HOT
+.search-36MZv-:not(.open-6_Y_aH) {
+  order: -1;
+}
+.search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb {
+  width: 27px;
+  transition: 0.25s;
+  background-color: transparent;
+}
+.search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb {
+  width: 240px;
+  transition: 0.25s;
+}
+.theme-dark .toolbar-1t6TWx .icon-3cZ1F_ {
+  color: var(--interactive-normal);
+}

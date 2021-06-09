@@ -1,0 +1,6 @@
+// Right click a folder > Folder Settings > Set the folder name
+// Then the name between those quotation marks is the folder you're gonna hide.
+[data-folder-name="hidden"],
+[data-folder-name*="blobs"] {
+  display: none;
+}

@@ -1,0 +1,37 @@
+// Link to Discord message
+.markup-2BOw-j:not(.embed-IeVjo6)
+  .anchor-3Z-8Bb[href*="discordapp.com/channels/" i]::before {
+  font-family: "Font Awesome 5 Brands";
+  content: " ";
+  color: var(--text-normal);
+}
+
+// YouTube
+.markup-2BOw-j:not(.embed-IeVjo6) .anchor-3Z-8Bb[href*="youtu" i]::before {
+  font-family: "Font Awesome 5 Brands";
+  content: " ";
+  color: var(--text-normal);
+}
+
+// Twitter
+.markup-2BOw-j:not(.embed-IeVjo6) .anchor-3Z-8Bb[href^="https://twitter" i]::before {
+  font-family: "Font Awesome 5 Brands";
+  content: " ";
+  color: var(--text-normal);
+}
+
+// Steam URIs, not limited to markup thus also in embeds
+.anchor-3Z-8Bb[href^="steam:" i]::before {
+  font-family: "Font Awesome 5 Brands";
+  content: " ";
+  color: var(--text-normal);
+}
+
+// Links to images
+.markup-2BOw-j:not(.embed-IeVjo6) .anchor-3Z-8Bb[href$="png"]::before,
+.markup-2BOw-j:not(.embed-IeVjo6) .anchor-3Z-8Bb[href$="gif"]::before,
+.markup-2BOw-j:not(.embed-IeVjo6) .anchor-3Z-8Bb[href$="jpg"]::before {
+  font-family: "Font Awesome 5 Pro";
+  content: " ";
+  color: var(--text-normal);
+}
