@@ -1,2 +1,24 @@
 // Midnight Mars by LuckFire
 @import url("https://luckfire.github.io/midnight-mars/src/support/compiled.css");
+// Channel Icons by ControlFreak707
+@import url("https://v-briese.github.io/channel-icons/channelicons.theme.css");
+
+// addons > chat
+@import "chat-decorateurls", "chat-hidedividers", "chat-notypingellipsis";
+// addons > chanbar
+@import "chanbar-nohelpbtn";
+// addons > global
+@import "global-font";
+//@import "global-neumorphism";
+//@import "global-neonglow";
+// addons > guilds
+@import "guilds-hidden";
+// addons > msgbar
+@import "msgbar-emojibtn";
+
+// fixes
+@import "fixes";
+
+// variables
+@import "vars";
+
