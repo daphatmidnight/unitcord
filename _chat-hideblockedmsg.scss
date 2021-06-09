@@ -1,4 +1,4 @@
 // Hide blocked messages
 [class^="groupStart-"] {
-  display: var(--DisplayBlockedUserMessage);
+  display: none;
 }

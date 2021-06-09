@@ -4,15 +4,15 @@
 @import url("https://v-briese.github.io/channel-icons/channelicons.theme.css");
 
 // addons > chat
-@import "chat-decorateurls", "chat-hidedividers", "chat-notypingellipsis";
+@import "chat-hideblockedmsg", "chat-decorateurls", "chat-hidedividers", "chat-notypingellipsis";
 // addons > chanbar
-@import "chanbar-nohelpbtn";
+@import "chanbar-lessbuttons";
 // addons > global
 @import "global-font";
-//@import "global-neumorphism";
+@import "global-neumorphism";
 //@import "global-neonglow";
 // addons > guilds
-@import "guilds-hidden";
+@import "guilds-hidden", "guilds-selectedmarker";
 // addons > msgbar
 @import "msgbar-emojibtn";
 
@@ -21,4 +21,3 @@
 
 // variables
 @import "vars";
-

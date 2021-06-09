@@ -2,13 +2,13 @@
 :root {
 /* ----------- MidnightMars Base ----------- */
 /* ----- Default Theme --- */
---midnightmars-primary: #36263A;
+--midnightmars-primary: #2E303A;
 --midnightmars-primary-alt: #432e4d;
---midnightmars-secondary: #281D30;
---midnightmars-secondary-alt: #211828;
---midnightmars-tertiary: #1a141f;
+--midnightmars-secondary: #1C1E27;
+--midnightmars-secondary-alt: #fff1;
+--midnightmars-tertiary: #14161C;
 --midnightmars-modifiers: 168, 113, 182;
---midnightmars-accent: #9864a3;
+--midnightmars-accent: #F42069;
 --midnightmars-accent-dark: #895a92;
 --midnightmars-green: #70ad85;
 --midnightmars-pill-buttons: rgba(132, 101, 138, 0.522);
@@ -38,7 +38,7 @@
 --indicator-hovered: rgba(152, 100, 163, 0.09);
 --indicator-rounding: 0;
 --indicator-border-info: 4px solid;
---indicator-selected: 152, 100, 163;
+--indicator-selected: 244, 32, 105;
 --indicator-selected-border: rgba(var(--indicator-selected));
 --indicator-selected-background: rgba(var(--indicator-selected), 0.1);
 --indicator-selected-hover: rgba(var(--indicator-selected), 0.18);

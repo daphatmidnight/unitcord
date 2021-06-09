@@ -1,0 +1,13 @@
+// ChanBar > LessButtons
+
+// Mute button
+// I prefer right clicking in the channel list
+.container-1r6BKw [aria-label*="Mute channel"] {
+  display: none;
+}
+
+// Help button
+// I've been using Discord since 2015. I don't need help.
+.container-1r6BKw a[href="https://support.discord.com"] {
+  display: none;
+}
