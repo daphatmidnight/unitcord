@@ -1,0 +1,8 @@
+{
+  "name": "unit",
+  "description": "made for unit, by unit",
+  "version": "dev",
+  "author": "unitgon#9999",
+  "license": "MIT",
+  "theme": "./unit.scss"
+}
