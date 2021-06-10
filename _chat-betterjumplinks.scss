@@ -1,0 +1,36 @@
+// better jump links by ghostlydilemma
+:root {
+  --DisplayInBlockQuotes: inline;
+  --DisplayOutBlockQuotes: inline;
+}
+
+a[href*="discord.com/channels/"],
+blockquote a[href*="discord.com/channels/"] {
+  visibility: hidden;
+  font-size: 0;
+  text-decoration: none !important;
+}
+
+a[href*="discord.com/channels/"]::after,
+blockquote a[href*="discord.com/channels/"]::after {
+  visibility: visible !important;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  line-height: 20px;
+  padding: 0 10px;
+  opacity: 0.8;
+  margin: 3px;
+  display: inline;
+  background: var(--midnightmars-tertiary);
+  transition: opacity 200ms;
+  color: white;
+}
+
+a[href*="discord.com/channels/"]::after,
+blockquote a[href*="discord.com/channels/"]::after {
+  content: "Jump to the message";
+}
+
+a:hover::after {
+  opacity: 1;
+}
