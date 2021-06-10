@@ -1,5 +1,18 @@
-// Neumorphism:
+// Neumorphism
+// light from top right
+
 .toolbar-1t6TWx {
   background-color: unset !important;
   box-shadow: -3px 3px 6px #0005, 3px -3px 6px #fff1;
+}
+
+#app-mount .modeSelected-346R90 .content-1x5b-n,
+#app-mount .channel-2QD9_O.selected-aXhQR6 .content-1x5b-n {
+  background: linear-gradient(225deg, #8881, #0003);
+  box-shadow: -5px 5px 10px #0f1015, 5px -5px 10px #191c23;
+  z-index: 5;
+}
+
+.content-1x5b-n {
+  transition: all 0.3s ease;
 }
