@@ -2,10 +2,12 @@
 @import url("https://luckfire.github.io/midnight-mars/src/support/compiled.css");
 // Channel Icons by ControlFreak707
 @import url("https://v-briese.github.io/channel-icons/channelicons.theme.css");
+// Inter by rsms
+@import url("https://rsms.me/inter/inter.css");
 
 // addons > chat
-@import "chat-hideblockedmsg", "chat-decorateurls", "chat-hidedividers",
-  "chat-notypingellipsis";
+@import "chat-decorateurls", "chat-hideblockedmsg", "chat-hidedividers",
+  "chat-hovertimestamp", "chat-notypingellipsis";
 // addons > chanbar
 @import "chanbar-lessbuttons";
 // addons > global

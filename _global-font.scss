@@ -1,6 +1,31 @@
+:root {
+  --FontFamily: "Inter var";
+  --FontMonoFamily: "JetBrains Mono", monospace;
+  --FontWeight: 420;
+  --FontFeatures: "cpsp", "ss03", "ss04", "cv02", "cv03", "cv04", "cv07", "cv10",
+    "cv11";
+  --FontEmSlant: 1; // for Inter: 0 (not slanted) to 10 (very slanted)
+}
+
 * {
   font-family: var(--FontFamily) !important;
-  font-variant: normal !important;
+  font-feature-settings: var(--FontFeatures);
+  font-weight: var(--FontWeight);
+}
+
+.username-1A8OIy,
+.replyLink-nOQEG8,
+.nameTag-3uD-yy .usernameContainer-1fp4nu {
+  font-weight: 700;
+}
+
+.markup-2BOw-j em {
+  font-variation-settings: "slnt"calc(-1 * var(--FontEmSlant));
+}
+
+.username-1A8OIy.clickable-1bVtEA:hover {
+  text-decoration-thickness: .125rem;
+  //text-underline-offset: 1px;
 }
 
 code.inline, code.inline span /* Inline Code Block */, .ace_editor * /* Settings Code Editor */, .inlineCode-2ngu6Y span /* Inline Codeblock Textarea */,
