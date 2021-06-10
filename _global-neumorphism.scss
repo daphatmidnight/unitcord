@@ -1,9 +1,14 @@
 // Neumorphism
 // light from top right
 
+// hbar tools (search, mute, pins...)
 .toolbar-1t6TWx {
   background-color: unset !important;
-  box-shadow: -3px 3px 6px #0005, 3px -3px 6px #fff1;
+  box-shadow: -3px 3px 5px #0005, 3px -3px 5px #fff1;
+}
+
+.content-1x5b-n {
+  transition: all 0.3s ease;
 }
 
 #app-mount .modeSelected-346R90 .content-1x5b-n,
@@ -12,7 +17,26 @@
   box-shadow: -5px 5px 10px #0f1015, 5px -5px 10px #191c23;
   z-index: 5;
 }
+#app-mount
+  .containerDefault--pIXnN
+  .wrapper-2jXpOf:not(.modeSelected-346R90):not(.modeConnected-3IsKId)
+  .content-1x5b-n:hover,
+#app-mount .channel-2QD9_O:not(.selected-aXhQR6) .content-1x5b-n:hover {
+  box-shadow: -4px 4px 7px #1115, 4px -4px 7px #3333;
+  z-index: 4;
+}
 
-.content-1x5b-n {
-  transition: all 0.3s ease;
+.scroller-RmtA4e::-webkit-scrollbar {
+  background: transparent;
+}
+
+.message-2qnXI6.selected-2P5D_Z,
+.mouse-mode.full-motion .message-2qnXI6:hover {
+  box-shadow: inset -5px 5px 10px #1112, inset 5px -5px 10px #1112;
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  background-color: unset;
+}
+.message-2qnXI6 {
+  transition: box-shadow .3s ease;
 }

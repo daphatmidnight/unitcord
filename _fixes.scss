@@ -26,3 +26,19 @@
 .theme-dark .toolbar-1t6TWx .icon-3cZ1F_ {
   color: var(--interactive-normal);
 }
+
+// HOT HOT HOT
+#app-mount .titleBar-AC4pGV .wordmark-2iDDfm::after {
+  font-family: unset !important;
+  content: "* plonk *-cord";
+  top: calc(var(--separation-padding) + 3px);
+  left: calc(var(--separation-padding) + 8px);
+  background: linear-gradient(90deg, #F42069 10%, #5865F2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100% 100%;
+}
+#app-mount .titleBar-AC4pGV.typeWindows-1za-n7::after {
+  background: unset;
+}

@@ -1,3 +1,8 @@
-.wrapper-3Njo_c.selected .pill-1z4sAY .item-2hkk8m{
+.listItem-GuPuDH.selected .pill-1z4sAY .item-2hkk8m,
+.wrapper-3Njo_c.selected .pill-1z4sAY .item-2hkk8m {
   background-color: var(--midnightmars-accent);
+}
+
+.item-2hkk8m {
+  transition: background-color 0.3s ease;
 }

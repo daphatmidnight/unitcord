@@ -1,0 +1,30 @@
+/**
+ * Snippet from #css-snippets applied the 23 Nov 2020 at 19:27:31
+ * Created by LuckFire#4800 (399416615742996480)
+ * Snippet ID: 757106245944606800
+ */
+[aria-label="Online"]::after {
+  content: "ONLINE";
+  font-weight: bold;
+  padding-left: 5px;
+  color: #43b581;
+}
+[aria-label="Do Not Disturb"]::after {
+  content: "DO NOT DISTURB";
+  font-weight: bold;
+  padding-left: 5px;
+  color: #f04747;
+}
+[aria-label="Idle"]::after {
+  content: "IDLE";
+  font-weight: bold;
+  padding-left: 5px;
+  color: #ffb740;
+}
+[aria-label="Offline"]::after {
+  content: "OFFLINE";
+  font-weight: bold;
+  padding-left: 5px;
+  color: #747f8d;
+}
+/** 757106245944606800 */
