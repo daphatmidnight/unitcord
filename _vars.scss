@@ -10,7 +10,7 @@
 --midnightmars-modifiers: 168, 113, 182;
 --midnightmars-accent: #F42069;
 --midnightmars-accent-dark: #7f334d;
---midnightmars-green: #70ad85;
+--midnightmars-green: #fffa;
 --midnightmars-pill-buttons: rgba(132, 101, 138, 0.522);
 /* ----- Status Colors --- */
 --status-online: #00ED8E;
@@ -64,7 +64,7 @@
 /* ----- Text --- */
 --text-normal: #fbfbfb;
 --text-muted: #b2a6b6;
---text-link: #b6ecc8;
+--text-link: #F46898;
 --channels-default: #b2a6b6;
 --interactive-normal: #c8c8c8;
 --interactive-hover: #dcddde;
@@ -84,9 +84,9 @@
 --toast-box-shadow: rgba(0, 0, 0, .2);
 --toast-border: var(--midnightmars-tertiary);
 /* ----- Mentions --- */
---background-mentioned: rgba(68, 109, 83, 0.15);
---background-mentioned-hover: rgba(68, 109, 83, 0.25);
---background-mentioned-border: var(--midnightmars-green);
+--background-mentioned: #F4206922;
+--background-mentioned-hover: var(--background-mentioned);
+--background-mentioned-border: var(--midnightmars-accent);
 /* ----- Deprecated --- */
 --deprecated-card-bg: var(--midnightmars-secondary);
 --deprecated-card-editable-bg: var(--midnightmars-secondary);

@@ -1,0 +1,20 @@
+/**
+ * Snippet from #css-snippets applied the 11 Jun 2021 at 14:22:06
+ * Created by Freeplay#5676 (158296466119458816)
+ * Snippet ID: 852642280669315112
+ */
+/* Center Servers List */
+[data-list-id="guildsnav"] > [class*="scroller-"] {
+    display: flex;
+    flex-direction: column;
+}
+[data-list-id="guildsnav"] > [class*="scroller-"] > [class*="tutorialContainer-"]:first-child + [class*="listItem"] > [class*="guildSeparator-"] {
+    display: none;
+}
+[data-list-id="guildsnav"] > [class*="scroller-"] > [aria-label] {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/** 852642280669315112 */

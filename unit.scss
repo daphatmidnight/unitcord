@@ -7,7 +7,7 @@
 
 // addons > chat
 @import "chat-betterjumplinks", "chat-decorateurls", "chat-hideblockedmsg",
-  "chat-hidedividers", "chat-hovertimestamp", "chat-notypingellipsis";
+  "chat-hidedividers", "chat-hovertimestamp";
 
 // addons > chanbar
 @import "chanbar-flyinbuttons", "chanbar-lessbuttons", "chanbar-rtcinfo";
@@ -18,7 +18,7 @@
 //@import "global-neonglow";
 
 // addons > guilds
-@import "guilds-hidden", "guilds-selectedmarker";
+@import "guilds-center", "guilds-hidden", "guilds-selectedmarker";
 
 // addons > hbar
 @import "hbar-dmstatus", "hbar-lessbuttons";
