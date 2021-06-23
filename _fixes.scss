@@ -3,6 +3,13 @@
   border-bottom-right-radius: 0;
 }
 
+// [TO BE FIXED?] channel list banner rounded
+/*.animatedContainer-1NSq4T {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+*/
+
 // HOT HOT HOT
 // hide invite btn channel list
 .containerDefault--pIXnN [aria-label*="Invite"] {
@@ -33,7 +40,7 @@
   content: "* plonk *-cord";
   top: calc(var(--separation-padding) + 3px);
   left: calc(var(--separation-padding) + 8px);
-  background: linear-gradient(90deg, #F42069 10%, #5865F2);
+  background: linear-gradient(90deg, #f42069 10%, #5865f2);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -41,4 +48,21 @@
 }
 #app-mount .titleBar-AC4pGV.typeWindows-1za-n7::after {
   background: unset;
+}
+
+// HOT HOT HOT
+// let server banners not overflow the channel list
+.container-3w7J-x {
+  overflow: hidden;
+}
+// let spotify element not overflow the user card
+.panels-j1Uci_ {
+  overflow: hidden;
+}
+
+// HOT HOT HOT
+// let premium guild icon not look like color changes sudden
+.guildBadge-3IDi4U,
+.premiumGuildIconGem-DAxGL7 {
+  transition: color 0.3s ease-in-out;
 }
