@@ -1,0 +1,26 @@
+// trans rights
+.title-eS5yk3,
+.customStatus-3tC2ig span {
+  background-image: linear-gradient(
+    to left,
+    #6fd0fc,
+    #f0aab9,
+    white,
+    #f0aab9,
+    #5dcdfa
+  );
+  animation: gradient-border 4s linear infinite;
+  background-size: 400% 100%;
+  color: transparent !important;
+  -webkit-background-clip: text;
+  position: relative;
+  z-index: 1;
+}
+@keyframes gradient-border {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 130% 0;
+  }
+}
