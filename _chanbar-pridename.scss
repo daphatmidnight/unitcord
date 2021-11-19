@@ -12,6 +12,7 @@
   animation: gradient-border 4s linear infinite;
   background-size: 400% 100%;
   color: transparent !important;
+  background-clip: text;
   -webkit-background-clip: text;
   position: relative;
   z-index: 1;
