@@ -1,15 +1,3 @@
-@forward "chanbar";
-@forward "chat";
-@forward "global";
-@forward "guilds";
-@forward "hbar";
-@forward "msgbar";
-@forward "fixes";
-@forward "vars";
-
-// Midnight Mars by LuckFire
-@import url("https://luckfire.github.io/midnight-mars/src/support/compiled.css");
-// Channel Icons by ControlFreak707
-@import url("https://v-briese.github.io/channel-icons/channelicons.theme.css");
-// Inter by rsms
-@import url("https://rsms.me/inter/inter.css");
+// unitcord
+@forward "imports";
+@forward "index";
