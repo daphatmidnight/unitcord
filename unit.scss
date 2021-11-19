@@ -1,34 +1,15 @@
+@forward "chanbar";
+@forward "chat";
+@forward "global";
+@forward "guilds";
+@forward "hbar";
+@forward "msgbar";
+@forward "fixes";
+@forward "vars";
+
 // Midnight Mars by LuckFire
 @import url("https://luckfire.github.io/midnight-mars/src/support/compiled.css");
 // Channel Icons by ControlFreak707
 @import url("https://v-briese.github.io/channel-icons/channelicons.theme.css");
 // Inter by rsms
 @import url("https://rsms.me/inter/inter.css");
-
-// addons > chat
-@import "chat-alttext", "chat-decorateurls", "chat-hideblockedmsg",
-  "chat-hidedividers", "chat-hovertimestamp";
-
-// addons > chanbar
-@import "chanbar-flyinbuttons", "chanbar-lessbuttons", "chanbar-pridename",
-  "chanbar-rtcinfo";
-
-// addons > global
-@import "global-font";
-@import "global-neumorphism";
-//@import "global-neonglow";
-
-// addons > guilds
-@import "guilds-center", "guilds-hidden", "guilds-selectedmarker";
-
-// addons > hbar
-@import "hbar-dmstatus", "hbar-lessbuttons";
-
-// addons > msgbar
-@import "msgbar-emojibtn", "msgbar-lessbuttons";
-
-// fixes
-@import "fixes";
-
-// variables
-@import "vars";
