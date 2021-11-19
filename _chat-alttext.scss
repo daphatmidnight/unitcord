@@ -1,0 +1,9 @@
+.embedWrapper-lXpS3L img {
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  border: 2px solid #0a05;
+  &[alt=""],
+  &:not([alt]) {
+    border-color: #c00a;
+  }
+}
